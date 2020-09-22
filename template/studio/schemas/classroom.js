@@ -5,6 +5,15 @@ export default {
     title: 'Classrooms',
     type: 'document',
     icon: GiTeacher,
+    fieldsets: [
+        {
+            name: 'peopleInClass', 
+            title: 'All the different people in class',
+            options: {
+                collapsible: true
+            }
+        }
+    ],
     preview: {
         select: {
             title: 'title',
@@ -73,6 +82,7 @@ export default {
             title: 'Roster',
             name: 'roster',
             type: 'array',
+            fieldset: 'peopleInClass',
             of: [
                 {
                     title: 'Student',
@@ -90,6 +100,7 @@ export default {
             name: 'staff',
             title: 'Staff',
             type: 'array',
+            fieldset: 'peopleInClass',
             of: [
                 {
                     name: 'staffMember',
