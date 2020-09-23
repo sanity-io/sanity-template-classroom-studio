@@ -16,8 +16,8 @@ export default {
             name: 'biography',
             type: 'array',
             of: [{type: 'block'}]
-        },        
-    
+        }
+        
     ]
 }
 
