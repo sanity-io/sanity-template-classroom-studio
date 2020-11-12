@@ -4,7 +4,7 @@
     "description": "This Starter comes packed with Lessons, Syllabi, Students, TAs, and Staff",
     "previewMedia": {
       "type": "image",
-      "src": "assets/studio.png",
+      "src": ".sanity-template/assets/studio.png",
       "alt": "A preview of the project screen in the Studio"
     },
     "technologies": [
@@ -27,10 +27,10 @@
                 "type": "studio",
                 "title": "Sanity Studio",
                 "description": "The Sanity Studio is where you edit and structure your content.",
-                "dir": "./studio",
+                "dir": "/studio",
                 "previewMedia": {
                     "type": "image",
-                    "src": "assets/studio.png",
+                    "src": ".sanity-template/assets/studio.png",
                     "alt": "A preview image of the Sanity Studio."
                 },
                 "buildSettings": {
