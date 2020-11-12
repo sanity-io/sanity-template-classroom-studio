@@ -1,5 +1,5 @@
 # Sanity Classroom Studio
-
+reconfigure
 This Studio was created with the idea of an online (or in person) classroom.
 
 It comes set up with a Schema for a Classroom, which has a roster of students,staff (teachers and teaching assistants), and a Syllabus. The Syllabus schema has lessons that are given dates.
